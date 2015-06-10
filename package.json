@@ -1,0 +1,28 @@
+{
+  "name": "consoletrail",
+  "version": "0.0.1",
+  "description": "pipe console output into papertrail",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lapwinglabs/consoletrail"
+  },
+  "keywords": [
+    "papertrail",
+    "log",
+    "console"
+  ],
+  "author": "Lapwing Labs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lapwinglabs/consoletrail/issues"
+  },
+  "homepage": "https://github.com/lapwinglabs/consoletrail",
+  "dependencies": {
+    "winston": "^1.0.0",
+    "winston-papertrail": "^1.0.1"
+  }
+}
